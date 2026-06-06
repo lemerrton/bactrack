@@ -6,16 +6,11 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="bg-label-white border border-warm-gray px-3 py-1">
-              <span className="text-[10px] tracking-[0.3em] uppercase text-gray-400 font-mono">
-                0/1
-              </span>
-            </div>
-            <span className="text-sm tracking-[0.25em] uppercase font-light">
-              BacTrack
+          <a href="#" className="flex items-center">
+            <span className="text-xl tracking-[-0.02em] font-medium text-black">
+              bacctrack
             </span>
-          </div>
+          </a>
           <div className="hidden md:flex items-center gap-8">
             <a
               href="#product"
@@ -57,9 +52,8 @@ export default function Home() {
               </div>
             </div>
 
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-extralight tracking-tight leading-[0.95] mb-8 animate-fade-up-d1">
-              Bac
-              <span className="font-normal">Track</span>
+            <h1 className="text-6xl md:text-7xl lg:text-8xl tracking-[-0.03em] font-medium leading-[0.95] mb-8 animate-fade-up-d1">
+              bacctrack
             </h1>
 
             <div className="w-12 h-px bg-gray-300 mb-8 animate-fade-up-d2" />
@@ -105,7 +99,7 @@ export default function Home() {
       <div className="flex justify-center py-6">
         <div className="bg-label-white border border-warm-gray px-6 py-3 text-center">
           <span className="text-[9px] tracking-[0.5em] uppercase text-gray-400 font-mono block">
-            Maison BacTrack
+            Maison bacctrack
           </span>
           <span className="text-[9px] tracking-[0.3em] uppercase text-gray-300 font-mono block mt-1">
             San Diego, CA
@@ -258,7 +252,7 @@ export default function Home() {
               drinks, the decision to drive feels easier than it should.
             </p>
             <p className="text-base md:text-lg font-light leading-relaxed text-gray-600 mb-6">
-              BacTrack removes that decision entirely. You lock your keys
+              bacctrack removes that decision entirely. You lock your keys
               before you drink, when your judgment is still clear. By the time
               you want to leave, the vault holds you accountable.
             </p>
@@ -268,7 +262,7 @@ export default function Home() {
 
             <div className="mt-10 pt-6 border-t border-warm-gray">
               <span className="text-[10px] tracking-[0.3em] uppercase text-gray-400 font-mono">
-                — Founder, BacTrack
+                — Founder, bacctrack
               </span>
             </div>
           </div>
@@ -354,7 +348,7 @@ export default function Home() {
             Pre-Order
           </h2>
           <p className="text-sm text-gray-500 font-light leading-relaxed mb-12 max-w-md mx-auto">
-            Be among the first to own the BacTrack vault. Estimated shipping
+            Be among the first to own the bacctrack vault. Estimated shipping
             Q1 2027. Fully refundable deposit.
           </p>
 
@@ -366,7 +360,7 @@ export default function Home() {
               </span>
             </div>
             <ul className="text-sm text-gray-500 font-light space-y-3 mb-10">
-              <li>BacTrack Vault</li>
+              <li>bacctrack Vault</li>
               <li>USB-C Charging Cable</li>
               <li>Companion App (iOS + Android)</li>
               <li>Free Shipping</li>
@@ -385,16 +379,9 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-gray-100 py-12 px-6">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-3">
-            <div className="bg-label-white border border-warm-gray px-3 py-1">
-              <span className="text-[10px] tracking-[0.3em] uppercase text-gray-400 font-mono">
-                0/1
-              </span>
-            </div>
-            <span className="text-xs tracking-[0.25em] uppercase font-light">
-              BacTrack
-            </span>
-          </div>
+          <span className="text-base tracking-[-0.02em] font-medium text-black">
+            bacctrack
+          </span>
           <div className="flex items-center gap-6">
             <span className="text-[10px] tracking-[0.2em] uppercase text-gray-400 font-mono">
               San Diego State University
@@ -404,7 +391,7 @@ export default function Home() {
             </span>
           </div>
           <span className="text-[10px] tracking-[0.2em] text-gray-300 font-mono">
-            &copy; 2026 BacTrack
+            &copy; 2026 bacctrack
           </span>
         </div>
       </footer>

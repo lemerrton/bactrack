@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BacTrack — Lock Your Keys. Protect Your Future.",
+  title: "bacctrack — Lock Your Keys. Protect Your Future.",
   description:
     "A breathalyzer-locked key vault that keeps your keys safe until you're safe to drive. Pre-order now.",
 };
