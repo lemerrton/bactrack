@@ -31,7 +31,7 @@ export default function Home() {
               Why
             </a>
             <a
-              href="#order"
+              href="/preorder"
               className="text-[11px] tracking-[0.2em] uppercase text-gray-400 border border-gray-300 px-4 py-2 hover:bg-black hover:text-white hover:border-black transition-all"
             >
               Pre-Order
@@ -66,7 +66,7 @@ export default function Home() {
 
             <div className="animate-fade-up-d3">
               <a
-                href="#order"
+                href="/preorder"
                 className="inline-block text-[11px] tracking-[0.3em] uppercase border border-black px-10 py-4 hover:bg-black hover:text-white transition-all duration-300"
               >
                 Pre-Order — $149
@@ -365,9 +365,12 @@ export default function Home() {
               <li>Companion App (iOS + Android)</li>
               <li>Free Shipping</li>
             </ul>
-            <button className="w-full md:w-auto text-[11px] tracking-[0.3em] uppercase bg-black text-white px-14 py-4 hover:bg-gray-800 transition-colors cursor-pointer">
+            <a
+              href="/preorder"
+              className="inline-block w-full md:w-auto text-[11px] tracking-[0.3em] uppercase bg-black text-white px-14 py-4 hover:bg-gray-800 transition-colors text-center"
+            >
               Reserve Now
-            </button>
+            </a>
           </div>
 
           <p className="text-[10px] tracking-[0.2em] uppercase text-gray-400 font-mono">
