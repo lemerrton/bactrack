@@ -385,15 +385,7 @@ export default function Home() {
           <span className="text-base tracking-[-0.02em] font-medium text-black">
             bacctrack
           </span>
-          <div className="flex items-center gap-6">
-            <span className="text-[10px] tracking-[0.2em] uppercase text-gray-400 font-mono">
-              San Diego State University
-            </span>
-            <span className="text-[10px] tracking-[0.2em] uppercase text-gray-400 font-mono">
-              Lavin Center
-            </span>
-          </div>
-          <span className="text-[10px] tracking-[0.2em] text-gray-300 font-mono">
+<span className="text-[10px] tracking-[0.2em] text-gray-300 font-mono">
             &copy; 2026 bacctrack
           </span>
         </div>
